@@ -1,0 +1,988 @@
+﻿
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TRAVELIA — подорожі, які залишаються в пам'яті">
+    <title>TRAVELIA — туристична агенція</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header__inner">
+            <a class="logo" href="#" aria-label="TRAVELIA — головна">
+                <svg viewBox="0 0 40 24" aria-hidden="true">
+                    <path d="M2 11L37 4L25 20L19 13L11 17L13 12Z" />
+                </svg>
+                <span>IA</span>
+            </a>
+
+            <input class="nav-toggle" type="checkbox" id="nav-toggle">
+            <label class="burger" for="nav-toggle" aria-label="Відкрити меню">
+                <span></span>
+            </label>
+
+            <nav class="nav" aria-label="Основне меню">
+                <ul class="nav__list">
+                    <li><a href="#about">Про нас</a></li>
+                    <li><a href="#destinations">Напрямки</a></li>
+                    <li><a href="#tours">Тури</a></li>
+                    <li><a href="#packages">Пакети</a></li>
+                    <li><a href="#reviews">Відгуки</a></li>
+                    <li><a href="#contacts">Контакти</a></li>
+                </ul>
+            </nav>
+
+            <a class="btn header__btn" href="#application">Знайти тур →</a>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero__background"></div>
+            <div class="hero__overlay"></div>
+
+            <div class="container hero__content">
+                <h1 class="hero__title">
+                    Подорожі, які<br>
+                    залишаються<br>
+                    в пам'яті
+                </h1>
+
+                <p class="hero__text">
+                    Відкривай нові місця разом з нами.<br>
+                    Ми підберемо подорож саме для тебе.
+                </p>
+
+                <a class="btn hero__btn" href="#application">
+                    Підібрати подорож →
+                </a>
+            </div>
+
+            <div class="container search__position">
+                <div class="search">
+                    <div class="search__item">
+                        <span>Куди?</span>
+                        <strong>Європа</strong>
+                    </div>
+
+                    <div class="search__item">
+                        <span>Дата:</span>
+                        <strong>Будь-яка дата</strong>
+                    </div>
+
+                    <div class="search__item">
+                        <span>Мандрівники:</span>
+                        <strong>2 дорослих</strong>
+                    </div>
+
+                    <a class="btn search__btn" href="#application">
+                        Знайти тур →
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about" id="about">
+            <div class="about__background"></div>
+
+            <div class="about__panel">
+                <div class="container about__inner">
+                    <div class="about__content">
+                        <div class="section-label section-label--dark">
+                            <span class="section-label__line"></span>
+                            <span>Про нас</span>
+                        </div>
+
+                        <h2 class="about__title">
+                            Ми допомагаємо<br>
+                            подорожувати без<br>
+                            зайвих турбот.
+                        </h2>
+
+                        <p class="about__text">
+                            TRAVELIA — туристична агенція, яка допомагає
+                            знаходити подорожі, що відповідають вашим
+                            бажанням, бюджету та стилю відпочинку.
+                            Ми підбираємо перевірені тури, допомагаємо
+                            з вибором напрямку та залишаємося на зв'язку
+                            на кожному етапі подорожі.
+                        </p>
+
+                        <div class="stats">
+                            <div class="stat">
+                                <strong>50+</strong>
+                                <span>напрямків</span>
+                            </div>
+                            <div class="stat">
+                                <strong>100+</strong>
+                                <span>готелів-партнерів</span>
+                            </div>
+                            <div class="stat">
+                                <strong>24/7</strong>
+                                <span>підтримка</span>
+                            </div>
+                        </div>
+
+                        <div class="about__bottom">
+                            <a class="btn" href="#application">
+                                Підібрати подорож →
+                            </a>
+                            <span class="about__slogan">
+                                Твоя подорож — наша турбота
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="about__photo">
+                        <video class="about__video"
+                               autoplay
+                               muted
+                               loop
+                               playsinline
+                               poster="img/pro nas.png">
+                            <source src="video/video.mp4" type="video/mp4">
+                            Ваш браузер не підтримує відео.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DESTINATIONS -->
+        <section class="destinations section" id="destinations">
+            <div class="container">
+                <div class="section-label">
+                    <span class="section-label__line"></span>
+                    <span>Напрями</span>
+                </div>
+
+                <h2 class="section-title">Популярні напрямки</h2>
+                <p class="section-subtitle">
+                    Обирайте місце для своєї наступної подорожі
+                </p>
+
+                <div class="destinations__list">
+                    <article class="destination-card">
+                        <div class="destination-card__photo">
+                            <img src="img/austria.jpg" alt="Австрія">
+                        </div>
+                        <h3>Австрія</h3>
+                        <p>Альпи, музика, кава.</p>
+                    </article>
+
+                    <article class="destination-card">
+                        <div class="destination-card__photo">
+                            <img src="img/greece.jpg" alt="Греція">
+                        </div>
+                        <h3>Греція</h3>
+                        <p>Море, відпочинок, сонце.</p>
+                    </article>
+
+                    <article class="destination-card">
+                        <div class="destination-card__photo">
+                            <img src="img/czech.jpg" alt="Чехія">
+                        </div>
+                        <h3>Чехія</h3>
+                        <p>Шпилі, мости, архітектура.</p>
+                    </article>
+
+                    <article class="destination-card">
+                        <div class="destination-card__photo">
+                            <img src="img/hungary.jpg" alt="Угорщина">
+                        </div>
+                        <h3>Угорщина</h3>
+                        <p>Мости, парламент, вогні.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- TOURS WITH CSS-ONLY GALLERIES -->
+        <section class="tours section" id="tours">
+            <div class="container">
+                <div class="section-label">
+                    <span class="section-label__line"></span>
+                    <span>Тури</span>
+                </div>
+
+                <h2 class="section-title">Готові подорожі для вас</h2>
+                <p class="section-subtitle">
+                    Оберіть тур та вирушайте назустріч новим враженням
+                </p>
+
+                <div class="tours__list">
+
+                    <!-- HALLSTATT -->
+                    <article class="tour-card">
+                        <div class="tour-card__photo tour-gallery"
+                             role="group"
+                             aria-label="Фотогалерея Гальштата">
+
+                            <input class="tour-gallery__radio"
+                                   type="radio"
+                                   name="gallery-hallstatt"
+                                   id="hallstatt-1"
+                                   checked>
+                            <input class="tour-gallery__radio"
+                                   type="radio"
+                                   name="gallery-hallstatt"
+                                   id="hallstatt-2">
+                            <input class="tour-gallery__radio"
+                                   type="radio"
+                                   name="gallery-hallstatt"
+                                   id="hallstatt-3">
+
+                            <div class="tour-gallery__slides">
+                                <img src="img/hallstatt.png"
+                                     alt="Гальштат — перше фото">
+                                <img src="img/hallstatt2.png"
+                                     alt="Гальштат — друге фото">
+                                <img src="img/hallstatt3.png"
+                                     alt="Гальштат — третє фото">
+                            </div>
+
+                            <div class="tour-gallery__controls tour-gallery__controls--1">
+                                <label for="hallstatt-3"
+                                       class="tour-arrow tour-arrow--left"
+                                       title="Попереднє фото">‹</label>
+                                <label for="hallstatt-2"
+                                       class="tour-arrow tour-arrow--right"
+                                       title="Наступне фото">›</label>
+                            </div>
+
+                            <div class="tour-gallery__controls tour-gallery__controls--2">
+                                <label for="hallstatt-1"
+                                       class="tour-arrow tour-arrow--left"
+                                       title="Попереднє фото">‹</label>
+                                <label for="hallstatt-3"
+                                       class="tour-arrow tour-arrow--right"
+                                       title="Наступне фото">›</label>
+                            </div>
+
+                            <div class="tour-gallery__controls tour-gallery__controls--3">
+                                <label for="hallstatt-2"
+                                       class="tour-arrow tour-arrow--left"
+                                       title="Попереднє фото">‹</label>
+                                <label for="hallstatt-1"
+                                       class="tour-arrow tour-arrow--right"
+                                       title="Наступне фото">›</label>
+                            </div>
+                        </div>
+
+                        <div class="tour-card__content">
+                            <h3>Гальштат</h3>
+                            <p>Австрія</p>
+                            <div class="tour-card__info">
+                                <span>7 днів</span>
+                                <span>від 399$</span>
+                            </div>
+                        </div>
+
+                        <a class="btn tour-card__btn" href="#application">
+                            Детальніше →
+                        </a>
+                    </article>
+
+                    <!-- PLATAMON -->
+                    <article class="tour-card">
+                        <div class="tour-card__photo tour-gallery"
+                             role="group"
+                             aria-label="Фотогалерея Платамона">
+
+                            <input class="tour-gallery__radio"
+                                   type="radio"
+                                   name="gallery-platoman"
+                                   id="platoman-1"
+                                   checked>
+                            <input class="tour-gallery__radio"
+                                   type="radio"
+                                   name="gallery-platoman"
+                                   id="platoman-2">
+                            <input class="tour-gallery__radio"
+                                   type="radio"
+                                   name="gallery-platoman"
+                                   id="platoman-3">
+
+                            <div class="tour-gallery__slides">
+                                <img src="img/platoman.png"
+                                     alt="Платамон — перше фото">
+                                <img src="img/platoman2.png"
+                                     alt="Платамон — друге фото">
+                                <img src="img/platoman3.png"
+                                     alt="Платамон — третє фото">
+                            </div>
+
+                            <div class="tour-gallery__controls tour-gallery__controls--1">
+                                <label for="platoman-3"
+                                       class="tour-arrow tour-arrow--left"
+                                       title="Попереднє фото">‹</label>
+                                <label for="platoman-2"
+                                       class="tour-arrow tour-arrow--right"
+                                       title="Наступне фото">›</label>
+                            </div>
+
+                            <div class="tour-gallery__controls tour-gallery__controls--2">
+                                <label for="platoman-1"
+                                       class="tour-arrow tour-arrow--left"
+                                       title="Попереднє фото">‹</label>
+                                <label for="platoman-3"
+                                       class="tour-arrow tour-arrow--right"
+                                       title="Наступне фото">›</label>
+                            </div>
+
+                            <div class="tour-gallery__controls tour-gallery__controls--3">
+                                <label for="platoman-2"
+                                       class="tour-arrow tour-arrow--left"
+                                       title="Попереднє фото">‹</label>
+                                <label for="platoman-1"
+                                       class="tour-arrow tour-arrow--right"
+                                       title="Наступне фото">›</label>
+                            </div>
+                        </div>
+
+                        <div class="tour-card__content">
+                            <h3>Платамон</h3>
+                            <p>Греція</p>
+                            <div class="tour-card__info">
+                                <span>14 днів</span>
+                                <span>від 599$</span>
+                            </div>
+                        </div>
+
+                        <a class="btn tour-card__btn" href="#application">
+                            Детальніше →
+                        </a>
+                    </article>
+
+                    <!-- ETRETAT -->
+                    <article class="tour-card">
+                        <div class="tour-card__photo tour-gallery"
+                             role="group"
+                             aria-label="Фотогалерея Етрети">
+
+                            <input class="tour-gallery__radio"
+                                   type="radio"
+                                   name="gallery-etreta"
+                                   id="etreta-1"
+                                   checked>
+                            <input class="tour-gallery__radio"
+                                   type="radio"
+                                   name="gallery-etreta"
+                                   id="etreta-2">
+                            <input class="tour-gallery__radio"
+                                   type="radio"
+                                   name="gallery-etreta"
+                                   id="etreta-3">
+
+                            <div class="tour-gallery__slides">
+                                <img src="img/etreta.png"
+                                     alt="Етрета — перше фото">
+                                <img src="img/etreta2.png"
+                                     alt="Етрета — друге фото">
+                                <img src="img/etreta3.png"
+                                     alt="Етрета — третє фото">
+                            </div>
+
+                            <div class="tour-gallery__controls tour-gallery__controls--1">
+                                <label for="etreta-3"
+                                       class="tour-arrow tour-arrow--left"
+                                       title="Попереднє фото">‹</label>
+                                <label for="etreta-2"
+                                       class="tour-arrow tour-arrow--right"
+                                       title="Наступне фото">›</label>
+                            </div>
+
+                            <div class="tour-gallery__controls tour-gallery__controls--2">
+                                <label for="etreta-1"
+                                       class="tour-arrow tour-arrow--left"
+                                       title="Попереднє фото">‹</label>
+                                <label for="etreta-3"
+                                       class="tour-arrow tour-arrow--right"
+                                       title="Наступне фото">›</label>
+                            </div>
+
+                            <div class="tour-gallery__controls tour-gallery__controls--3">
+                                <label for="etreta-2"
+                                       class="tour-arrow tour-arrow--left"
+                                       title="Попереднє фото">‹</label>
+                                <label for="etreta-1"
+                                       class="tour-arrow tour-arrow--right"
+                                       title="Наступне фото">›</label>
+                            </div>
+                        </div>
+
+                        <div class="tour-card__content">
+                            <h3>Етрета</h3>
+                            <p>Франція</p>
+                            <div class="tour-card__info">
+                                <span>6 днів</span>
+                                <span>від 399$</span>
+                            </div>
+                        </div>
+
+                        <a class="btn tour-card__btn" href="#application">
+                            Детальніше →
+                        </a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- REVIEWS -->
+        <section class="reviews section" id="reviews">
+            <div class="container">
+                <div class="section-label">
+                    <span class="section-label__line"></span>
+                    <span>Відгуки</span>
+                </div>
+
+                <h2 class="section-title">Що говорять наші клієнти</h2>
+                <p class="section-subtitle">
+                    Нам важливо, щоб кожна подорож залишала тільки приємні спогади.
+                </p>
+
+                <div class="reviews__list">
+                    <article class="review-card">
+                        <div class="review-card__person">
+                            <div class="review-card__avatar">
+                                <img src="img/anna.png" alt="Анна">
+                            </div>
+                            <div>
+                                <h3>Анна</h3>
+                                <span class="stars">★★★★★</span>
+                            </div>
+                        </div>
+
+                        <p class="review-card__text">
+                            «Дуже сподобалась організація подорожі!
+                            Все було чітко, без зайвих турбот.
+                            Окремо дякую менеджеру за підтримку та поради.»
+                        </p>
+
+                        <span class="review-card__place">Греція, 2026</span>
+
+                        <div class="review-card__photo">
+                            <img src="img/greece.png" alt="Греція">
+                        </div>
+                    </article>
+
+                    <article class="review-card">
+                        <div class="review-card__person">
+                            <div class="review-card__avatar">
+                                <img src="img/yurii.png" alt="Юрій">
+                            </div>
+                            <div>
+                                <h3>Юрій</h3>
+                                <span class="stars">★★★★★</span>
+                            </div>
+                        </div>
+
+                        <p class="review-card__text">
+                            «Все було організовано на найвищому рівні!
+                            Готель чудовий, екскурсії цікаві. Рекомендую!»
+                        </p>
+
+                        <span class="review-card__place">Угорщина, 2026</span>
+
+                        <div class="review-card__photo">
+                            <img src="img/buda.png" alt="Будапешт">
+                        </div>
+                    </article>
+
+                    <article class="review-card">
+                        <div class="review-card__person">
+                            <div class="review-card__avatar">
+                                <img src="img/sofia.png" alt="Софія">
+                            </div>
+                            <div>
+                                <h3>Софія</h3>
+                                <span class="stars">★★★★★</span>
+                            </div>
+                        </div>
+
+                        <p class="review-card__text">
+                            «Чудова подорож! Все було дуже зручно:
+                            трансфер, готель та екскурсії.
+                            Дякую за яскраві емоції!»
+                        </p>
+
+                        <span class="review-card__place">Чехія, 2026</span>
+
+                        <div class="review-card__photo">
+                            <img src="img/praha.png" alt="Прага">
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- MODULE 6 — PACKAGES -->
+        <section class="packages section" id="packages">
+            <div class="container">
+                <div class="section-label">
+                    <span class="section-label__line"></span>
+                    <span>Пакети подорожей</span>
+                </div>
+
+                <h2 class="section-title">Оберіть формат своєї подорожі</h2>
+                <p class="section-subtitle">
+                    Приклади вартості за одну особу.
+                    Остаточна ціна залежить від напрямку та дати.
+                </p>
+
+                <div class="packages__grid">
+
+                    <article class="ui-card package-card">
+                        <div class="package-card__top">
+                            <h3 class="package-card__title">Легкий старт</h3>
+                            <p class="package-card__description">
+                                Для короткої подорожі без зайвих витрат.
+                            </p>
+                        </div>
+
+                        <p class="package-card__price">
+                            від 350 <span>USD / особа</span>
+                        </p>
+
+                        <ul class="package-card__features">
+                            <li>Підбір туристичного напрямку</li>
+                            <li>Допомога з вибором проживання</li>
+                            <li>Консультація перед поїздкою</li>
+                        </ul>
+
+                        <a class="btn btn--outline package-card__button"
+                           href="#application">
+                            Обрати «Легкий старт»
+                        </a>
+                    </article>
+
+                    <article class="ui-card ui-card--featured package-card package-card--featured">
+                        <span class="package-card__badge">Найпопулярніший</span>
+
+                        <div class="package-card__top">
+                            <h3 class="package-card__title">Комфорт</h3>
+                            <p class="package-card__description">
+                                Оптимальне поєднання вражень і зручності.
+                            </p>
+                        </div>
+
+                        <p class="package-card__price">
+                            від 599 <span>USD / особа</span>
+                        </p>
+
+                        <ul class="package-card__features">
+                            <li>Індивідуальний підбір туру</li>
+                            <li>Підбір готелю та трансферу</li>
+                            <li>Рекомендації щодо екскурсій</li>
+                            <li>Підтримка під час подорожі</li>
+                        </ul>
+
+                        <a class="btn btn--primary package-card__button"
+                           href="#application">
+                            Обрати «Комфорт»
+                        </a>
+                    </article>
+
+                    <article class="ui-card package-card">
+                        <div class="package-card__top">
+                            <h3 class="package-card__title">Преміум</h3>
+                            <p class="package-card__description">
+                                Більше свободи для особливого відпочинку.
+                            </p>
+                        </div>
+
+                        <p class="package-card__price">
+                            від 899 <span>USD / особа</span>
+                        </p>
+
+                        <ul class="package-card__features">
+                            <li>Персональний маршрут</li>
+                            <li>Підбір готелів під побажання</li>
+                            <li>Індивідуальні рекомендації</li>
+                            <li>Пріоритетний зв'язок із менеджером</li>
+                        </ul>
+
+                        <a class="btn btn--outline package-card__button"
+                           href="#application">
+                            Обрати «Преміум»
+                        </a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- MODULE 5 — APPLICATION FORM -->
+        <section class="application section" id="application">
+            <div class="container">
+                <div class="section-label">
+                    <span class="section-label__line"></span>
+                    <span>Заявка</span>
+                </div>
+
+                <h2 class="section-title">Підберемо подорож для вас</h2>
+                <p class="section-subtitle">
+                    Заповніть форму, і ми допоможемо обрати найкращий варіант.
+                </p>
+
+                <form class="travel-form"
+                      action="https://formsubmit.co/eleonorafedevych2008@gmail.com"
+                      method="POST">
+
+                    <input type="hidden"
+                           name="_subject"
+                           value="Нова заявка з сайту TRAVELIA">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="text" name="_honey"
+                           style="display:none"
+                           tabindex="-1"
+                           autocomplete="off">
+
+                    <fieldset>
+                        <legend>Контактні дані</legend>
+
+                        <div class="form-grid">
+                            <div class="form-field">
+                                <label for="name">Ім'я *</label>
+                                <input type="text"
+                                       id="name"
+                                       name="name"
+                                       placeholder="Ваше ім'я"
+                                       required
+                                       minlength="2">
+                            </div>
+
+                            <div class="form-field">
+                                <label for="phone">Телефон *</label>
+                                <input type="tel"
+                                       id="phone"
+                                       name="phone"
+                                       placeholder="+380..."
+                                       required
+                                       pattern="\+380[0-9]{9}"
+                                       title="Введіть номер у форматі +380971234567">
+                            </div>
+
+                            <div class="form-field">
+                                <label for="email">Email *</label>
+                                <input type="email"
+                                       id="email"
+                                       name="email"
+                                       placeholder="example@email.com"
+                                       required>
+                            </div>
+
+                            <div class="form-field">
+                                <label for="date">Бажана дата</label>
+                                <input type="date"
+                                       id="date"
+                                       name="date">
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Параметри подорожі</legend>
+
+                        <div class="form-field form-field--package">
+                            <label for="package-choice">Пакет подорожі</label>
+                            <select id="package-choice" name="package">
+                                <option value="Не обрано">Не обрано</option>
+                                <option value="Легкий старт">Легкий старт</option>
+                                <option value="Комфорт">Комфорт</option>
+                                <option value="Преміум">Преміум</option>
+                            </select>
+                        </div>
+
+                        <div class="form-grid">
+                            <div class="form-field">
+                                <label for="destination">Напрямок *</label>
+                                <select id="destination"
+                                        name="destination"
+                                        required>
+                                    <option value="" selected disabled>
+                                        Оберіть напрямок
+                                    </option>
+                                    <option value="Австрія">Австрія</option>
+                                    <option value="Греція">Греція</option>
+                                    <option value="Чехія">Чехія</option>
+                                    <option value="Угорщина">Угорщина</option>
+                                    <option value="Інший напрямок">Інший напрямок</option>
+                                </select>
+                            </div>
+
+                            <div class="form-field">
+                                <label for="travelers">Кількість мандрівників</label>
+                                <input type="number"
+                                       id="travelers"
+                                       name="travelers"
+                                       min="1"
+                                       max="20"
+                                       value="2">
+                            </div>
+                        </div>
+
+                        <fieldset class="radio-group">
+                            <legend class="form-label">
+                                Зручний спосіб зв'язку *
+                            </legend>
+
+                            <label>
+                                <input type="radio"
+                                       name="contact"
+                                       value="Телефон"
+                                       required>
+                                Телефон
+                            </label>
+
+                            <label>
+                                <input type="radio"
+                                       name="contact"
+                                       value="Email">
+                                Email
+                            </label>
+                        </fieldset>
+
+                        <div class="form-field">
+                            <label for="message">Коментар</label>
+                            <textarea id="message"
+                                      name="message"
+                                      rows="5"
+                                      minlength="10"
+                                      maxlength="500"
+                                      placeholder="Напишіть побажання щодо подорожі"></textarea>
+                        </div>
+                    </fieldset>
+
+                    <p class="privacy-note">
+                        Дані, які ви вказуєте у формі, використовуються
+                        для опрацювання заявки та зв'язку з вами.
+                        Заявка передається через сервіс FormSubmit.
+                        Не надсилайте конфіденційні дані у коментарі.
+                    </p>
+
+                    <label class="checkbox-field">
+                        <input type="checkbox"
+                               name="agreement"
+                               value="Так"
+                               required>
+                        <span>Погоджуюсь на обробку моїх даних *</span>
+                    </label>
+
+                    <button class="btn form__btn" type="submit">
+                        Надіслати заявку →
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <!-- MODULE 5 — PRICE TABLE -->
+        <section class="price-table section">
+            <div class="container">
+                <div class="section-label">
+                    <span class="section-label__line"></span>
+                    <span>Таблиця</span>
+                </div>
+
+                <h2 class="section-title">Популярні тури</h2>
+                <p class="section-subtitle">
+                    Приклади готових пропозицій TRAVELIA.
+                </p>
+
+                <div class="table-wrapper">
+                    <table>
+                        <caption>
+                            Популярні туристичні пропозиції.
+                            Ціни вказано за одну особу.
+                        </caption>
+
+                        <thead>
+                            <tr>
+                                <th scope="col">Напрямок</th>
+                                <th scope="col">Тривалість</th>
+                                <th scope="col">Вартість</th>
+                                <th scope="col">Тип відпочинку</th>
+                                <th scope="col">Заявка</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <th scope="row">Австрія</th>
+                                <td>7 днів</td>
+                                <td class="table-price">від 399$</td>
+                                <td>
+                                    <span class="badge badge--tour">
+                                        Екскурсійний
+                                    </span>
+                                </td>
+                                <td>
+                                    <a class="table-link" href="#application">
+                                        Замовити
+                                    </a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Греція</th>
+                                <td>14 днів</td>
+                                <td class="table-price">від 599$</td>
+                                <td>
+                                    <span class="badge badge--sea">
+                                        Морський
+                                    </span>
+                                </td>
+                                <td>
+                                    <a class="table-link" href="#application">
+                                        Замовити
+                                    </a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Чехія</th>
+                                <td>6 днів</td>
+                                <td class="table-price">від 399$</td>
+                                <td>
+                                    <span class="badge badge--tour">
+                                        Екскурсійний
+                                    </span>
+                                </td>
+                                <td>
+                                    <a class="table-link" href="#application">
+                                        Замовити
+                                    </a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="row">Угорщина</th>
+                                <td>5 днів</td>
+                                <td class="table-price">від 350$</td>
+                                <td>
+                                    <span class="badge badge--tour">
+                                        Екскурсійний
+                                    </span>
+                                </td>
+                                <td>
+                                    <a class="table-link" href="#application">
+                                        Замовити
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACTS WITH DARK MAP -->
+        <section class="contacts section" id="contacts">
+            <div class="container">
+                <div class="section-label">
+                    <span class="section-label__line"></span>
+                    <span>Контакти</span>
+                </div>
+
+                <h2 class="section-title">Наш офіс у Львові</h2>
+                <p class="section-subtitle">
+                    Завітайте до нас, і ми допоможемо підібрати ідеальний тур.
+                </p>
+
+                <div class="contacts__inner">
+                    <div class="contacts__info">
+                        <div class="contact-item">
+                            <strong>Адреса</strong>
+                            <span>вул. Петра Дорошенка, 12</span>
+                            <span>м. Львів, 79000</span>
+                        </div>
+
+                        <div class="contact-item">
+                            <strong>Телефон</strong>
+                            <span>+38 (097) 123 45 67</span>
+                        </div>
+
+                        <div class="contact-item">
+                            <strong>Email</strong>
+                            <span>info@travel.com</span>
+                        </div>
+
+                        <div class="contact-item">
+                            <strong>Графік роботи</strong>
+                            <span>Пн–Пт: 09:00–18:00</span>
+                            <span>Сб–Нд: 10:00–16:00</span>
+                        </div>
+
+                        <a class="btn" href="tel:+380971234567">
+                            Подзвонити нам →
+                        </a>
+                    </div>
+
+                    <div class="contacts__photo">
+                        <img src="img/lvivv.png" alt="Львів">
+                    </div>
+
+                    <div class="contacts__map">
+                        <iframe title="Карта: вулиця Петра Дорошенка, 12, Львів"
+                                src="https://www.google.com/maps?q=%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F%20%D0%9F%D0%B5%D1%82%D1%80%D0%B0%20%D0%94%D0%BE%D1%80%D0%BE%D1%88%D0%B5%D0%BD%D0%BA%D0%B0%2012%2C%20%D0%9B%D1%8C%D0%B2%D1%96%D0%B2&output=embed"
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div class="footer__about">
+                <strong class="footer__logo">TRAVELIA</strong>
+                <p>Подорожі, які залишаються в пам'яті</p>
+            </div>
+
+            <div class="footer__column">
+                <strong>НАПРЯМКИ</strong>
+                <span>Європа</span>
+                <span>Азія</span>
+                <span>Америка</span>
+                <span>Африка</span>
+                <span>Австралія</span>
+            </div>
+
+            <div class="footer__column">
+                <strong>КОМПАНІЯ</strong>
+                <a href="#about">Про нас</a>
+                <a href="#tours">Тури</a>
+                <a href="#reviews">Відгуки</a>
+                <a href="#contacts">Контакти</a>
+            </div>
+
+            <div class="footer__column">
+                <strong>КОНТАКТИ</strong>
+                <span>вул. Петра Дорошенка, 12</span>
+                <span>м. Львів, 79000</span>
+                <span>+38 (097) 123 45 67</span>
+                <span>info@travel.com</span>
+            </div>
+        </div>
+
+        <div class="container footer__bottom">
+            <span>© 2026 TRAVELIA. Усі права захищені.</span>
+            <span>Політика конфіденційності</span>
+        </div>
+    </footer>
+
+</body>
+</html>
